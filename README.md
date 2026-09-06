@@ -67,7 +67,8 @@ The goal is to demonstrate how a machine learning model can be integrated into a
 
 The dashboard provides a real-time interface for analyzing transactions using the XGBoost model, explainable fraud rules, and automated risk decisions.
 
-![Fraud Detection Dashboard](docs/screenshots/dashboard.png)
+![Fraud Detection Dashboard](<img width="1840" height="898" alt="Screenshot 2026-09-06 144533" src="https://github.com/user-attachments/assets/c7ed199a-3743-47bc-be8b-ee61825abe42" />
+)
 
 ---
 
@@ -75,7 +76,8 @@ The dashboard provides a real-time interface for analyzing transactions using th
 
 Low-risk transactions are automatically approved when no significant fraud signals are detected.
 
-![LOW Risk Transaction](docs/screenshots/low-risk.png)
+![LOW Risk Transaction](<img width="1919" height="741" alt="Screenshot 2026-09-06 144551" src="https://github.com/user-attachments/assets/e018d6f8-41fb-4cef-8fbf-3cc190961518" />
+)
 
 ---
 
@@ -83,7 +85,8 @@ Low-risk transactions are automatically approved when no significant fraud signa
 
 Medium-risk transactions trigger explainable rule-based signals and are sent for manual review.
 
-![MEDIUM Risk Transaction](docs/screenshots/medium-risk.png)
+![MEDIUM Risk Transaction](<img width="1876" height="763" alt="Screenshot 2026-09-06 144611" src="https://github.com/user-attachments/assets/02e8b149-fa15-4ea7-a411-c95b061afc43" />
+)
 
 ---
 
@@ -91,7 +94,8 @@ Medium-risk transactions trigger explainable rule-based signals and are sent for
 
 High-risk transactions trigger multiple fraud signals and are automatically blocked by the risk engine.
 
-![HIGH Risk Transaction](docs/screenshots/high-risk.png)
+![HIGH Risk Transaction](<img width="1891" height="835" alt="Screenshot 2026-09-06 144627" src="https://github.com/user-attachments/assets/b2c103e6-78a4-4c78-9e41-08cdde6af5ca" />
+)
 
 ---
 
@@ -99,7 +103,8 @@ High-risk transactions trigger multiple fraud signals and are automatically bloc
 
 The dashboard maintains a recent transaction history showing fraud probability, risk score, risk level, and the final decision.
 
-![Transaction History](docs/screenshots/transaction-history.png)
+![Transaction History](<img width="1889" height="356" alt="Screenshot 2026-09-06 144638" src="https://github.com/user-attachments/assets/87458d7e-931a-416d-bc0a-f6d451782bbc" />
+)
 
 # 🏗️ System Architecture
 
