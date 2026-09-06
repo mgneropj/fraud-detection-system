@@ -61,6 +61,46 @@ The goal is to demonstrate how a machine learning model can be integrated into a
 
 ---
 
+## 📸 Application Screenshots
+
+### 🖥️ Fraud Detection Dashboard
+
+The dashboard provides a real-time interface for analyzing transactions using the XGBoost model, explainable fraud rules, and automated risk decisions.
+
+![Fraud Detection Dashboard](docs/screenshots/dashboard.png)
+
+---
+
+### 🟢 LOW Risk — APPROVE
+
+Low-risk transactions are automatically approved when no significant fraud signals are detected.
+
+![LOW Risk Transaction](docs/screenshots/low-risk.png)
+
+---
+
+### 🟡 MEDIUM Risk — REVIEW
+
+Medium-risk transactions trigger explainable rule-based signals and are sent for manual review.
+
+![MEDIUM Risk Transaction](docs/screenshots/medium-risk.png)
+
+---
+
+### 🔴 HIGH Risk — BLOCK
+
+High-risk transactions trigger multiple fraud signals and are automatically blocked by the risk engine.
+
+![HIGH Risk Transaction](docs/screenshots/high-risk.png)
+
+---
+
+### 📊 Transaction History
+
+The dashboard maintains a recent transaction history showing fraud probability, risk score, risk level, and the final decision.
+
+![Transaction History](docs/screenshots/transaction-history.png)
+
 # 🏗️ System Architecture
 
 The application follows a complete transaction-to-decision fraud detection pipeline.
