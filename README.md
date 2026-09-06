@@ -1,4 +1,4 @@
-# 🛡️ Fraud Detection System
+ 🛡️ Fraud Detection System
 
 > An end-to-end machine learning fraud detection platform that evaluates payment transactions using XGBoost, explainable business rules, risk scoring, FastAPI, React, and Docker.
 
